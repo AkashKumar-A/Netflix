@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)file:///D:/web%20doplment/netflix.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+    <!--i use the enternal style sheet-->
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+           /* font-family: cursive;*/
+            background-image: url(netfilx.jpg); no-repeat;
+        }
+        .container{
+            height: 100vh;
+           background-image:  url(https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg);
+           width: 100%;
+           color: white;
+           background-size:cover;
+        }
+        /*it is the sing btn desing*/
+        .sing-btn{
+            position: absolute;
+            top: 8%;
+            left: 90%;
+            background: #e50914;
+            width: 85px;
+            color: white;
+            height: 35px;
+            font-size: 15px;
+            opacity: 0.9;;
+            border-radius: 5px;
+            border: 0;
+        }
+        .sing-btn:hover{
+            opacity: 1;
+        }
+        .sub-container{
+            margin-top: 10%;
+            text-align: center;
+        }
+        .see{
+            /*font-size: 50px;*/
+            font-weight: 700;
+           /* color: white;*/
+            font-family: Helvetica;
+        }
+        /*size of the headding */
+        .see h1 ,h2{
+            font-size: 50px;
+        }
+        .see h2{
+            margin: -42px 0px 0px 0px;
+        }
+        .watch{
+            font-size: 40px;
+            font-weight:350px;
+            /*color: white;*/
+            font-family: Helvetica;
+            margin: 25px 0px 0px 0px;
+            font-size: 26px;
+        }
+        /*style of the join btn in*/
+        .join-btn{
+            border: 0;
+            background: red;
+            padding: 20px 80px;
+            font-size: 40px;
+           /* color: white;*/
+            font-family: Helvetica;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+            opacity: 1;
+        }
+        .join-btn{
+            opacity: 1;
+        }
+        .header img{
+            height: 97px;
+            width:auto;
+        }
+        /*style of the email style of the email bar*/
+        .input{
+            font-size: 33px;
+            margin: 29px 0px 0px 0px;
+            background: white;
+    border: 0;
+    /* border-bottom: 1px orange; */
+    color: white;
+    box-shadow: orange;
+    box-shadow: 1px 2px 1px 0px orange;
+        }
+        .Try-now{
+            color: white;
+    font-size: 33px;
+    background: red;
+    border: 0;
+    border-radius: 2px;
+        }
+        .Try-now:hover{
+            opacity: 1;
+        }
+       .enter-email p{
+            margin: 13px 1px 2px -29%;
+            color: orange;
+        }
+        /*this style of the defferent size of the screen*/
+        @media(max-width: 950px){
+             .sing-btn{
+                 left: 88%;
+             }
+        }
+        @media(max-width: 790px){
+            .sing-btn{
+                left: 85%;
+            }
+        }
+        @media(max-width: 590px){
+            .sing-btn{
+                left: 80%;
+            }
+        }
+        @media(max-width: 590px){
+            .sing-btn{
+                left: 76%;
+
+            }
+            .enter-email{
+                font-size: 18px;
+            }
+            .Try-now{
+                font-size: 20px;
+            }
+        }
+        @media(max-width: 420px){
+            .sing-btn{
+                left: 65%;
+            }
+            .input{
+                font-size: 15px;
+            }
+        }
+       
+    </style>
+</head>
+<body>
+    <!--it is the navigation bar-->
+    <div class="container">
+        <div class="header">
+            <img src="Netflix-Logo.wine.png">
+            <button class="sing-btn">Sing up</button>
+        </div>
+        <div class="sub-container">
+            <span class="see"><h1>Unlimited movies,TV</h1>
+                <h2>shows and more.</h2></span>
+            <p class="watch">Watch anywhere. Cancel anytime.</p>
+                <div class="enter-email">
+                    <!--email enter the in bar and input tag-->
+                <input type="email" name="" placeholder="Enter email" class="input">
+                <button class="Try-now">TRY IT NOW</button>
+            <p>Email is required.</p>
+            <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+        
+        </div>
+        </div>
+    </div>
+    
+</body></html>
